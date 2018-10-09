@@ -1,0 +1,19 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<webview id="wv1" src="https://trafico5.recarganetvoip.com/voip/" style="display:inline-flex; width:100%; height:100%" nodeintegration></webview>
+
+<script>
+    var webview = document.getElementById('wv1');
+    webview.addEventListener('dom-ready', function () {
+        webview.insertCSS('#logo_login img, #logo, #id_li_ventas, #id_li_planes, #id_li_inventario, #id_li_caja, #id_pestana_ventas, #menu ul li a, .olvidon{ display:none;}')
+    });
+
+</script>
+
+</body>
+</html>

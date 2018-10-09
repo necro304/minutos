@@ -1,0 +1,26 @@
+{
+  "name": "nomaskype",
+  "version": "1.0.0",
+  "description": "sofware para llamada",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Isaac Castellanos",
+  "license": "ISC",
+  "dependencies": {},
+  " build ": {
+    " appId ": " Nomaseskype ",
+    "assar": true,
+    " win ": {
+      " target ": " NMS ",
+      "icon": "build/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^3.0.3",
+    "electron-builder": "^20.28.4"
+  }
+}
